@@ -1,0 +1,39 @@
+
+html, body { height: 100% }
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #311772;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.game div {
+    background-color: #000;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: opacity .3s;
+}
+
+.game .off {
+    opacity: .25;
+}
